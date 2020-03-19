@@ -23,11 +23,12 @@
   },
   "devDependencies": {
     "ava": "^3.5.0",
-    "ecsy": "^0.2.2",
+    "ecsy": "^0.2.3",
     "electron": "5.0.6",
     "electron-builder": "^21.0.11",
     "electron-webpack": "^2.7.4",
     "esm": "^3.2.25",
+    "npm-check-updates": "^4.0.4",
     "three": "^0.112.1",
     "webpack": "~4.35.3"
   }
