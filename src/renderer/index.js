@@ -8,7 +8,7 @@ import CubeComponent from './components/cubeComponent.js';
 // import RotatingComponent from './components/rotatingComponent.js';
 import RenderSystem from './systems/renderSystem.js';
 // import RotationSystem from './systems/rotationSystem.js';
-import '../../dist/CSS/main.css';
+import '../../CSS/main.css';
 
 class mainProgram
 {

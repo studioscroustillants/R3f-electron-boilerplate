@@ -1,5 +1,7 @@
 .DS_Store
+blend/
 dist/
 node_modules/
 thumbs.db
+package-lock.json
 .idea/
