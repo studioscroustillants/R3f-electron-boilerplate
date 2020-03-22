@@ -11,7 +11,7 @@
     "test": "ava"
   },
   "dependencies": {
-    "source-map-support": "^0.5.12"
+    "source-map-support": "^0.5.16"
   },
   "ava": {
     "files": [
@@ -22,14 +22,14 @@
     ]
   },
   "devDependencies": {
-    "ava": "^3.5.0",
+    "ava": "^3.5.1",
     "ecsy": "^0.2.3",
-    "electron": "5.0.6",
-    "electron-builder": "^21.0.11",
+    "electron": "8.1.1",
+    "electron-builder": "^22.4.1",
     "electron-webpack": "^2.7.4",
     "esm": "^3.2.25",
     "html-loader": "^1.0.0",
     "three": "^0.112.1",
-    "webpack": "~4.35.3"
+    "webpack": "^4.42.0"
   }
 }
