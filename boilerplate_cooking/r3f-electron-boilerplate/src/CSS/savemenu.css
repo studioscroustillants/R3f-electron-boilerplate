@@ -1,0 +1,18 @@
+#savemenu{background:rgba(113,231,0,0.7);position:absolute;height:100%;width:100%;position:absolute;z-index:100;text-align:center;}
+
+#savemenu .onesave{margin-top:50px;margin-left:25%;width:50%;display:flex;height:50px;}
+#savemenu .onesave h3{width:50%;margin:0;padding:5px;}
+#savemenu .onesave i{width:50%;margin:0;padding:5px;}
+#savemenu button{
+	width:50%;
+	text-align:center;
+	color:rgb(255,255,137);
+	background:rgb(189,0,189);
+	border:none;
+	padding:15px;
+	border:2px solid rgb(255,255,137);
+	font-size:20px;margin-top:5px;
+	margin-top:100px;
+}
+
+/* #savemenu button:first-child{margin-top:400px;} */

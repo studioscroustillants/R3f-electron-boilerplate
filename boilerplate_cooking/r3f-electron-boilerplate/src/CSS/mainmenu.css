@@ -1,0 +1,13 @@
+#mainmenu{background:rgba(113,231,0,0.7);position:absolute;height:100%;width:100%;position:absolute;z-index:100;text-align:center;}
+#mainmenu button{
+	width:50%;
+	text-align:center;
+	color:rgb(255,255,137);
+	background:rgb(189,0,189);
+	border:none;
+	padding:15px;
+	border:2px solid rgb(255,255,137);
+	font-size:20px;margin-top:5px;
+}
+
+#mainmenu button:first-child{margin-top:200px;}

@@ -1,0 +1,23 @@
+#recipes{width:50%;position:absolute;color:rgb(255,255,137);background:rgba(189,0,189,0.7);left:25%;height:60%;top:20%;z-index:10;overflow-y:scroll;}
+#recipes .closebtn{width:100%;color:yellow;text-align:right;font-size:20px;cursor:pointer;}
+
+#recipes div{width:calc(100% - 4px);border:2px solid rgb(255,255,137);display:flex;border-bottom:none;}
+/* #market div:first-child{border-top:2px solid rgb(255,255,137);} */
+#recipes div img{height:100%;width:25%;margin:0;padding:0;}
+#recipes div div{height:100%;width:50%;border:none;display:inline;}
+#recipes div div p{height:50%;color:rgb(255,255,137);width:100%;margin:0;padding:0;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;}
+#recipes div button{
+	height:100%;
+	width:25%;
+	text-align:center;
+	color:rgb(255,255,137);
+	background:rgb(189,0,189);
+	border:none;
+	padding:8px;
+	border-left:2px solid rgb(255,255,137);
+	font-size:17px;
+}
+
+#recipes::-webkit-scrollbar {
+  display: none;
+}

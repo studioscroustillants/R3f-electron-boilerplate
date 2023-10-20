@@ -1,0 +1,13 @@
+#inventory{color:rgb(255,255,137);background:rgba(189,0,189,0.7);width:50%;left:25%;height:10%;top:0%;position:absolute;z-index:10;overflow-x:scroll;}
+#inventory div{width:calc(10% - 10px);height:calc(100% - 10px);position:relative;text-align:center;padding:5px;overflow:hidden;display:inline-block;}
+#inventory div img{width:100%;z-index:5;height:100%;}
+#inventory div p{position:absolute;margin:0;z-index:10;background:rgba(200,200,200,0.7);white-space: nowrap;width:calc(100% - 10px);bottom:5px;
+  overflow: hidden;
+  text-overflow: ellipsis;}
+#inventory div span{position:absolute;margin:0;z-index:10;background:rgba(200,200,200,0.7);white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;width:calc(50% - 10px);top:0;right:0;}
+
+#inventory::-webkit-scrollbar {
+  display: none;
+}

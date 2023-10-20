@@ -1,0 +1,14 @@
+#stand{color:rgb(255,255,137);background:rgba(189,0,189,0.7);width:30%;left:35%;height:40%;top:25%;position:absolute;z-index:10;overflow-x:scroll;}
+#stand .closebtn{width:100%;color:yellow;text-align:right;font-size:20px;cursor:pointer;}
+#stand div{width:calc(100% - 10px);height:10%;position:relative;text-align:center;overflow:hidden;}
+/* #stand div img{width:100%;z-index:5;height:100%;} */
+#stand div p{position:absolute;margin:0;z-index:10;white-space: nowrap;width:calc(75% - 10px);
+  overflow: hidden;
+  text-overflow: ellipsis;display:inline;left:0;}
+#stand div span{position:absolute;margin:0;z-index:10;white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;width:calc(24% - 10px);left:75%;}
+
+#stand::-webkit-scrollbar {
+  display: none;
+}

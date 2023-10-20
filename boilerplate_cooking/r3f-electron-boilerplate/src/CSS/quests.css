@@ -1,0 +1,19 @@
+#quests{width:25%;position:absolute;color:rgba(189,0,189,0.7);left:0;height:30%;top:20%;z-index:10;overflow-y:scroll;left:75%;}
+/* #quests .closebtn{width:100%;color:yellow;text-align:right;font-size:20px;cursor:pointer;} */
+
+#quests div{width:calc(100% - 4px);border-bottom:2px solid rgba(189,0,189,0.7);height:20%;}
+#quests .tempquest {display:flex;}
+#quests .tempquest strong{height:100%;width:80%;display:inline;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;}
+#quests .tempquest svg{height:100%;width:10%;border-left:1px solid rgba(189,0,189,0.7);display:inline;}
+
+#quests .validquest:hover{background:lightgrey;cursor:pointer;}
+#quests .validquest .questinfos{height:50%;width:100%;border:none;overflow:hidden;display:flex;}
+#quests .validquest .questinfos span{position:relative;height:100%;color:rgba(189,0,189,0.7);width:40%;margin:0;padding:0;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;}
+#quests .validquest .questinfos p{height:100%;color:rgba(189,0,189,0.7);width:20%;margin:0;padding:0;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;}
+
+#quests .validquest .questneeds{height:50%;width:100%;border:none;display:flex;}
+#quests .validquest .questneeds span{height:100%;color:rgba(189,0,189,0.7);width:50%;margin:0;padding:0;white-space: nowrap;overflow:hidden;text-overflow: ellipsis;text-align:center;}
+
+#quests::-webkit-scrollbar {
+  display: none;
+}
